@@ -1,2 +1,2 @@
-   discord.py-self==2.0.0a37
-   python-dotenv==1.0.1
+discord.py-self==2.1.0
+python-dotenv==1.0.1
