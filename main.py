@@ -20,7 +20,7 @@ logger = logging.getLogger("selfbot")
 
 
 # Bot client (user account - bot=False)
-client = commands.Bot(command_prefix="!", intents=intents, bot=False)
+
 
 # Environment variables with defaults
 TOKEN = os.getenv("DISCORD_TOKEN")
