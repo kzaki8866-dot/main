@@ -17,11 +17,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("selfbot")
 
-# Intents configuration
-intents = discord.Intents.default()
-intents.message_content = True
-intents.guilds = True
-intents.members = True
+
 
 # Bot client (user account - bot=False)
 client = commands.Bot(command_prefix="!", intents=intents, bot=False)
